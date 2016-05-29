@@ -1,12 +1,11 @@
-class: center, middle
+class: center, middle, inverse
 
 # Android Studioのススメ
 
 ---
-layout: false
 
 .left-column[
-  ## なぜAndroid Studioなのか
+  ## Why Android Studio?
 ]
 
 .right-column[
@@ -17,21 +16,27 @@ layout: false
 ]
 
 --
-
-.center[# 不純]
+.right-column[
+# 不純
+]
 
 ---
 
-# Eclipse -> Android Studio
+.left-column[
+  ## Why Android Studio?
+  ## Eclipse -> Android Studio
+]
 
+.right-column[
 ## 手段は2つ
 
 1. ローカルのEclipseプロジェクトをインポート
 1. gitリポジトリからクローン
-
+]
 --
-
+.right-column[
 ## まあgit cloneでしょ
+]
 
 ---
 
@@ -67,13 +72,3 @@ class: center, middle
 # 憎らしくてキーボードに爪を立ててみる
 
 ---
-
-layout: false
-
-.left-column[
-  ## test
-]
-.right-column[
-  test
-  test
-]
