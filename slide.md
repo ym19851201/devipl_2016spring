@@ -3,7 +3,14 @@ class: center, middle, inverse
 # Android Studioのススメ
 
 ---
+# Caution
 
+* 今回の発表はAndroid Studio以外で作成された、既存のAndroidプロジェクトをAndroid Studioで開発しようという、
+極めて対象が限られるものです
+
+* いわば茨の道を征く方々の道標になればいいかなと思って発表します
+
+---
 .left-column[
   ## Why Android Studio?
 ]
@@ -36,6 +43,7 @@ class: center, middle, inverse
 --
 .right-column[
 ## まあgit cloneでしょ
+## そもそもローカルでソース持ってないし
 ]
 
 ---
@@ -49,7 +57,7 @@ class: center, middle, inverse
 --
 
 .right-column[
-## index-pack failed
+# "index-pack failed"
 ]
 
 --
@@ -67,7 +75,7 @@ class: center, middle, inverse
 --
 
 .right-column[
-Google先生「Cygwinのgitじゃ動かねえから」
+## Google先生「Cygwinのgitじゃ動かねえからｗｗｗｗ」
 ]
 
 ---
@@ -161,7 +169,7 @@ class: center, middle
 
 ---
 .left-column[
-# What is gradle?
+## What is Gradle?
 ]
 .right-column[
 * ビルドツール
@@ -172,8 +180,8 @@ class: center, middle
 
 ---
 .left-column[
-# What is gradle?
-# How-to
+## What is Gradle?
+## How-to
 ]
 .right-column[
 * build.gradleというビルドスクリプトに設定書くだけ
@@ -187,27 +195,44 @@ class: center, middle
 
 ---
 
+.left-column[
+## What is Gradle?
+## How-to
+]
+
+.right-column[
 * プロジェクトルートにbuild.gradle置く
+]
 
 --
 
+.right-column[
 * 書く
+]
 
 --
 
+.right-column[
 * エラー出る
+]
 
 --
 
+.right-column[
 * でもビルドできる
+]
 
 --
 
+.right-column[
 * 実行もできる
+]
 
 --
 
+.right-column[
 * ﾅﾆｺﾚ
+]
 
 ---
 class: center, middle
@@ -291,3 +316,43 @@ class: center, middle
 class: center, middle, inverse
 
 # 以上！
+
+---
+class: center, middle
+
+# というのもなんなので言い訳
+
+---
+
+.left-column[
+## 言い訳
+]
+
+--
+
+.right-column[
+* 今回お客さんに頼まれたのは計算部分+いずれ消える運命にあるUI(作成ま○ださん)
+]
+
+--
+.right-column[
+* いわばAndroid関係ない部分
+]
+
+--
+.right-column[
+* そして何よりAndroidエミュレータマジ重い(ボタン押下後数分でブレイクポイントに)
+]
+
+--
+.right-column[
+* 計算結果検証してグラフに正しく表示できるか見るにはもうAndroidなくていいじゃん
+]
+
+---
+class: center, middle, inverse
+
+# ご清聴ありがとうございました
+#### そもそも今回の件は、Android Studio一本で開発する方には関係ない話でした
+#### とはいえこんな悲しい事態に陥った方のために設定方法をgitlabにまとめてありますので、知りたい方はチェックしてみてください
+#### Android Studioをディスってるわけではなく、実際かなり使いやすいIDEだと思います
