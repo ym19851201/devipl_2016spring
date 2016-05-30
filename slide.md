@@ -274,8 +274,13 @@ template: ira
 ]
 .right-column[
 File>Project Structureより、これがソースフォルダ、これがリソースフォルダだよと指定してく
+]
+
+--
+.right-column[
 ## あっ、これ要らないんすね。。。
 ]
+
 
 ---
 class: center, middle, inverse
@@ -354,5 +359,5 @@ class: center, middle, inverse
 
 # ご清聴ありがとうございました
 #### そもそも今回の件は、Android Studio一本で開発する方には関係ない話でした
-#### とはいえこんな悲しい事態に陥った方のために設定方法をgitlabにまとめてありますので、知りたい方はチェックしてみてください
-#### Android Studioをディスってるわけではなく、実際かなり使いやすいIDEだと思います
+#### とはいえこんな悲しい事態に陥った方のために<br>設定方法をgitlabにまとめてありますので、知りたい方はチェックしてみてください
+#### Android Studioをディスってるわけではなく、<br>実際かなり使いやすいIDEだと思います
