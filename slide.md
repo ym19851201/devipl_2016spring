@@ -1,8 +1,10 @@
+background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0kPFm5dOFYz9IPvG7T9B8CgdD3GpuOzv30=w300)
 class: center, middle, inverse
 
 # Android Studioのススメ
 
 ---
+background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0kPFm5dOFYz9IPvG7T9B8CgdD3GpuOzv30=w300)
 # Caution
 
 * 今回の発表はAndroid Studio以外で作成された、既存のAndroidプロジェクトをAndroid Studioにインポートして開発しようという、
@@ -169,7 +171,8 @@ class: center, middle
 # んっ？
 
 ---
-class: center, middle
+class: center, middle, inverse
+background-image: url(http://www.wallpapersonly.net/wallpapers/android-3-gingerbread-1280x960.jpg)
 
 # これってGradleの仕事じゃないの？
 
@@ -248,7 +251,8 @@ class: center, middle
 ]
 
 ---
-class: center, middle
+class: center, middle, inverse
+background-image: url(http://www.wallpapersonly.net/wallpapers/android-3-gingerbread-1280x960.jpg)
 
 ## ソースなどと同じく認識されてないから設定してあげなきゃならないんじゃ？
 
