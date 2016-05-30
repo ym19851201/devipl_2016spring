@@ -5,7 +5,7 @@ class: center, middle, inverse
 ---
 # Caution
 
-* 今回の発表はAndroid Studio以外で作成された、既存のAndroidプロジェクトをAndroid Studioで開発しようという、
+* 今回の発表はAndroid Studio以外で作成された、既存のAndroidプロジェクトをAndroid Studioにインポートして開発しようという、
 極めて対象が限られるものです
 
 * いわば茨の道を征く方々の道標になればいいかなと思って発表します
@@ -15,11 +15,24 @@ class: center, middle, inverse
   ## Why Android Studio?
 ]
 
+--
 .right-column[
-1. お客さん「miyazaki君、とりあえずAndroidの方やっといてよ」
-1. Google先生「Eclipseはもう捨てたわ」
-1. 「えっ、君Android Studio使えるの？！いいね！」
-1. 新しいことやっときたい
+* お客さん「miyazaki君、とりあえずAndroidの方やっといてよ」
+]
+
+--
+.right-column[
+* Google先生「Eclipseはもう捨てたわ」
+]
+
+--
+.right-column[
+* 「えっ、君Android Studio使えるの？！いいね！」
+]
+
+--
+.right-column[
+* 新しいことやっときたい
 ]
 
 --
