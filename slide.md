@@ -59,9 +59,9 @@ background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0k
 ]
 --
 .right-column[
-## まあgit cloneでしょ
-## そもそもローカルでソース持ってないし
-## 何よりディレクトリ構成がAndroid Studio調にガラリと変わるんですよ
+### まあgit cloneでしょ
+### そもそもローカルでソース持ってないし
+### 何よりディレクトリ構成がAndroid Studio調にガラリと変わるんですよ
 ]
 
 ---
@@ -407,6 +407,15 @@ class: center, middle, inverse
 .right-column[
 # 勝った
 ]
+
+---
+class: center, middle, inverse
+
+# まとめ
+
+### **Android開発をするなら**Eclipseを捨ててAndroid Studioを選択しよう
+### 実はGradle検出設定してbuild.gradle書くだけで問題ないです
+### 今回大して触れてないですが、Groovyいい感じです。実はAndroidアプリもGroovyで書けます。
 
 ---
 class: center, middle, inverse
