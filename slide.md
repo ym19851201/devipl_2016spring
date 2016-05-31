@@ -61,6 +61,7 @@ background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0k
 .right-column[
 ## まあgit cloneでしょ
 ## そもそもローカルでソース持ってないし
+## 何よりディレクトリ構成がAndroid Studio調にガラリと変わるんですよ
 ]
 
 ---
