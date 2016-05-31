@@ -378,8 +378,12 @@ template: ira
 File>Project Structureより、これがソースフォルダ、これがリソースフォルダだよと指定してく
 ]
 
---
+---
+.left-column[
+## Settings
+]
 .right-column[
+~~File>Project Structureより、これがソースフォルダ、これがリソースフォルダだよと指定してく~~
 ## あっ、やっぱこれ要らないんすね。。。
 ]
 
