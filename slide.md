@@ -2,6 +2,8 @@ background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0k
 class: center, middle, inverse
 
 # Android Studioのススメ
+## 〜Groovyソースを添えて〜
+
 
 ---
 background-image: url(https://lh3.ggpht.com/embNgl_sfBmFB-5PslsKRmmlRrMIJCOzrI0kPFm5dOFYz9IPvG7T9B8CgdD3GpuOzv30=w300)
@@ -197,7 +199,88 @@ background-image: url(http://www.wallpapersonly.net/wallpapers/android-3-gingerb
 ---
 .left-column[
 ## What is Gradle?
-## How-to
+## What is Groovy?
+]
+.right-column[
+* JVM上で動作するスクリプト言語。Javaとの親和性パない。
+* 簡潔な記法も可
+* コンパイルも可
+]
+
+---
+.left-column[
+## What is Gradle?
+## What is Groovy?
+]
+.right-column[
+### ハロワ
+
+* Java
+```java
+public class Main {
+      public static void main(String[] args) {
+          System.out.println("Hello World");
+      }
+}
+```
+* Groovy
+```groovy
+println "Hello"
+```
+]
+
+---
+.left-column[
+## What is Gradle?
+## What is Groovy?
+]
+.right-column[
+### List
+
+* Java
+```java
+List<String> list = Arrays.asList("a", "b", "c", "d");
+for (String str : list) {
+      System.out.println(str);
+}
+```
+* Groovy
+```groovy
+list = ["a", "b", "c", "d"]
+list.each {str->
+      println str
+}
+```
+]
+
+---
+.left-column[
+## What is Gradle?
+## What is Groovy?
+]
+.right-column[
+### ファイル書き込み
+
+* Java
+```java
+File file = new File(file_name);
+FileWriter filewriter = new FileWriter(file);
+BufferedWriter bw = new BufferedWriter(filewriter);
+PrintWriter pw = new PrintWriter(bw);
+pw.print("Hello World")
+```
+* Groovy
+```groovy
+new File(file_name).text = "Hello Groovy world!"
+```
+]
+
+
+---
+.left-column[
+## What is Gradle?
+## What is Groovy?
+## Gradle How-to
 ]
 .right-column[
 * build.gradleというビルドスクリプトに設定書くだけ
@@ -213,7 +296,8 @@ background-image: url(http://www.wallpapersonly.net/wallpapers/android-3-gingerb
 
 .left-column[
 ## What is Gradle?
-## How-to
+## What is Groovy?
+## Gradle How-to
 ]
 
 .right-column[
@@ -295,7 +379,7 @@ File>Project Structureより、これがソースフォルダ、これがリソ�
 
 --
 .right-column[
-## あっ、これ要らないんすね。。。
+## あっ、やっぱこれ要らないんすね。。。
 ]
 
 
