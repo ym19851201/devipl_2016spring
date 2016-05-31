@@ -226,7 +226,7 @@ public class Main {
 ```
 * Groovy
 ```groovy
-println "Hello"
+println "Hello World"
 ```
 ]
 
@@ -241,16 +241,41 @@ println "Hello"
 * Java
 ```java
 List<String> list = Arrays.asList("a", "b", "c", "d");
+list.get(2);
 for (String str : list) {
-      System.out.println(str);
+      System.out.println("---------- " + str + " ----------");
 }
 ```
 * Groovy
 ```groovy
 list = ["a", "b", "c", "d"]
+list[2]
 list.each {str->
-      println str
+      println "---------- $str ----------"
 }
+```
+]
+
+---
+.left-column[
+## What is Gradle?
+## What is Groovy?
+]
+.right-column[
+### List 2
+
+* Java
+```java
+List<Integer> list = Arrays.asList(1, 2, 3, 4);
+List<Integer> newList = new ArrayList<>();
+for (int num : list) {
+      newList.add(num * 2);
+}
+```
+* Groovy
+```groovy
+list = [1, 2, 3, 4]
+newList = list.collect { it * 2 }
 ```
 ]
 
@@ -268,7 +293,7 @@ File file = new File(file_name);
 FileWriter filewriter = new FileWriter(file);
 BufferedWriter bw = new BufferedWriter(filewriter);
 PrintWriter pw = new PrintWriter(bw);
-pw.print("Hello World")
+pw.print("Hello World");
 ```
 * Groovy
 ```groovy
